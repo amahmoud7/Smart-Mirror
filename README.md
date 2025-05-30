@@ -24,7 +24,7 @@ A significant finding from our exploratory data analysis (EDA) is that, out of t
 
 ## Model Training
 
-Our model training focuses on convolutional neural networks (CNNs), leveraging the rich variety of the ISIC 2020 dataset. Specifically, we aim to train the model on time-series images to recognize the progression from benign to malignant lesions, an approach that is expected to significantly enhance early detection capabilities.
+This model training focuses on convolutional neural networks (CNNs), leveraging the rich variety of the ISIC 2020 dataset. Specifically, we aim to train the model on time-series images to recognize the progression from benign to malignant lesions, an approach that is expected to significantly enhance early detection capabilities.
 
 ### Training Goals
 
