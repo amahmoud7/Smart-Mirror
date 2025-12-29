@@ -1,0 +1,16 @@
+# Development dependencies
+-r requirements-edge.txt
+-r requirements-server.txt
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+
+# Code quality
+ruff>=0.1.0
+mypy>=1.7.0
+
+# Debugging
+ipython>=8.0.0
+jupyter>=1.0.0

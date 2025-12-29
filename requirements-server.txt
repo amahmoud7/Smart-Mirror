@@ -1,0 +1,23 @@
+# Smart Mirror Server (PC with RTX 5080)
+# Core
+numpy>=1.24.0
+opencv-python>=4.8.0
+
+# Async HTTP client
+aiohttp>=3.9.0
+
+# API server
+fastapi>=0.104.0
+uvicorn>=0.24.0
+websockets>=12.0
+
+# Data validation
+pydantic>=2.0.0
+
+# Ollama integration (VLM)
+# Ollama should be installed separately: https://ollama.ai
+# Models to pull:
+#   ollama pull qwen2.5-vl:7b
+
+# Optional: TensorFlow for skin cancer model fallback
+tensorflow>=2.15.0

@@ -1,0 +1,25 @@
+# Smart Mirror Edge (Jetson Orin Nano)
+# Core CV and ML
+numpy>=1.24.0
+opencv-python>=4.8.0
+scipy>=1.11.0
+
+# Deep Learning (TensorFlow for Jetson)
+# Note: Use NVIDIA's TensorFlow build for Jetson
+# pip install --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v51 tensorflow==2.12.0+nv23.05
+tensorflow>=2.12.0
+
+# MediaPipe (for gesture recognition)
+# Note: May need to build from source for ARM64
+mediapipe>=0.10.0
+
+# Ultralytics (for YOLOv8 face detection)
+ultralytics>=8.0.0
+
+# Communication
+aiohttp>=3.9.0
+websockets>=12.0
+
+# Utilities
+Pillow>=10.0.0
+pydantic>=2.0.0
